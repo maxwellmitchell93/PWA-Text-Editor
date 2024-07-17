@@ -26,6 +26,7 @@ module.exports = () => {
         swSrc: "./src-sw.js",
         swDest: "service-worker.js",
       }),
+      //webpackpwa manifest plugin
       new WebpackPwaManifest({
         name: "Text King",
         short_name: "TK",
